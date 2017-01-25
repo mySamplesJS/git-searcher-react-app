@@ -1,0 +1,12 @@
+.githubLogoSVG {
+	width: 30px;
+
+	&, & + h1 {
+		display: inline;
+		vertical-align: middle;
+	}
+
+	 & + h1 {
+		 margin-left: .5rem;
+	 }
+}
